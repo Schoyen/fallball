@@ -2,8 +2,8 @@
     <qresource prefix="/">
         <file>main.qml</file>
         <file>MainForm.ui.qml</file>
-        <file>../red_bub.svg</file>
-        <file>../green_bub.svg</file>
-        <file>../blue_bub.svg</file>
+        <file>red_bub.svg</file>
+        <file>green_bub.svg</file>
+        <file>blue_bub.svg</file>
     </qresource>
 </RCC>

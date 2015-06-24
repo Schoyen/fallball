@@ -48,19 +48,19 @@ ApplicationWindow {
                 var newX = mousePointer.mouseX
                 var newY = mousePointer.mouseY
 
-                /*
-                if (newX < 0)
-                    newX = 0
+
+                if (newX < bubble.width)
+                    newX = bubble.width
 
                 if (newX > mainWindow.width - bubble.width)
                     newX = mainWindow.width - bubble.width
 
-                if (newY < 18)
-                    newY  = 18
+                if (newY < bubble.height)
+                    newY  = bubble.height
 
                 if (newY > mainWindow.height - bubble.height)
                     newY = mainWindow.height - bubble.height
-                */
+
 
                 bubble.x = newX - bubble.width / 2
                 bubble.y = newY - bubble.height / 2
