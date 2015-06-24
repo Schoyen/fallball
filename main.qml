@@ -2,6 +2,7 @@ import QtQuick 2.4
 import QtQuick.Controls 1.3
 import QtQuick.Window 2.2
 import QtQuick.Dialogs 1.2
+import FallBall 1.0
 
 ApplicationWindow {
     title: qsTr("Sliding ball")
@@ -10,6 +11,13 @@ ApplicationWindow {
     height: 480
     visible: true
 
+    Bubble {
+        id: bubble
+        x: mainWindow.width / 2
+        y: mainWindow.height / 2
+    }
+
+    /*
     Rectangle {
         anchors.fill: parent
 
@@ -74,4 +82,5 @@ ApplicationWindow {
             }
         }
     }
+    */
 }
